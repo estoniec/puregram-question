@@ -70,4 +70,3 @@ const answer = await msg.question(message);
 |answer|Promise\<Answer\>|Основной объект ответа|
 |answer.text|string \| null|Текст сообщения|
 |answer.createdAt|number|Время, когда был дан ответ|
-```

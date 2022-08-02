@@ -1,0 +1,43 @@
+{
+  "name": "puregram-question",
+  "version": "1.0.3",
+  "description": "Небольшой модуль для системы \"Вопрос-Ответ\" (аналог vk-io-question).",
+  "main": "lib/index",
+  "module": "lib/index.mjs",
+  "typings": "lib/index.d.ts",
+  "types": "lib/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./lib/index.mjs",
+      "require": "./lib/index.js"
+    }
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmmmmmmmak/puregram-question.git"
+  },
+  "author": "makjs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmmmmmmmak/puregram-question/issues"
+  },
+  "homepage": "https://github.com/mmmmmmmmak/puregram-question#readme",
+  "keywords": [
+    "js",
+    "ts",
+    "puregram",
+    "telegram",
+    "question",
+    "vk-io-question"
+  ],
+  "dependencies": {
+    "middleware-io": "^2.8.0",
+    "puregram": "^1.0.0"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}

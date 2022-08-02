@@ -2,6 +2,9 @@
 ### Описание
 Небольшой модуль для системы "Вопрос-Ответ".
 Интегрируется в цепь *middleware* puregram
+КОПИЯ VK-IO-QUESTION -- (https://www.npmjs.com/package/vk-io-question)
+
+[![npm package](https://nodei.co/npm/puregram-question.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/puregram-question/)
 
 ### Установка
 **npm**
